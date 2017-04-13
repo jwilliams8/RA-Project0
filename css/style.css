@@ -15,9 +15,13 @@ h2 {
 h3 {
 	font-size: 30px;
 }
+footer {
+	background: url(../images/color-bg-2.jpg) center center fixed;
+	background-size: cover;
+}
 
 .content-wrap {
-	background: url(../images/color-bg.jpg) center center fixed;
+	background: url(../images/color-bg-2.jpg) center center fixed;
 	background-size: cover;
 }
 
@@ -59,12 +63,21 @@ h3 {
 	justify-content: center;
 }
 
-.fa-section {
+.flex-center {
+	align-items: center;
+	justify-content: center;
+}
+
+.icon-section {
 	font-size: 150px;
 }
 
-.fa-footer {
+.icon-footer {
 	font-size: 50px;
+}
+
+.icon-contact {
+	font-size: 75px;
 }
 
 .font-white {
@@ -87,6 +100,10 @@ h3 {
 	padding: 0 40px;
 }
 
+.sm-padding-rl {
+	padding: 0 20px;
+}
+
 .xs-padding-rl {
 	padding: 0 5px;
 }
@@ -99,16 +116,8 @@ h3 {
 	padding: 60px 0;
 }
 
-.sm-padding-top {
-	padding-top: 10px;
-}
-
 .md-padding-tb {
 	padding: 20px 0;
-}
-
-.md-padding-bottom {
-	padding-bottom: 20px;
 }
 
 .sm-padding-tb {
@@ -117,6 +126,14 @@ h3 {
 
 .xs-padding-tb {
 	padding: 5px 0;
+}
+
+.md-padding-bottom {
+	padding-bottom: 20px;
+}
+
+.sm-padding-top {
+	padding-top: 10px;
 }
 
 .border-top {
@@ -128,27 +145,31 @@ h3 {
 }
 
 .bg-gradient-1 {
-	background: linear-gradient(#4F8985, #67afa9);
+	background-color: #5A9B96;
 }
 
 .bg-gradient-2 {
-	background: linear-gradient(#c25c59, #f77471);
+	background-color: #cc5a49;
 }
 
 .bg-gradient-3 {
-	background: linear-gradient(#645c81, #7f75a5);
+	background-color: #777493;
 }
 
 .bg-gradient-4 {
-	background: linear-gradient(#ce9b18, #ffc338);
+	background-color: #eda310;
 }
 
 .bg-gradient-5 {
-	background: linear-gradient(#406bbc, #5492ff);
+	background-color: #4e86e0;
 }
 
 .bg-gradient-6 {
-	background: linear-gradient(#52646c, #6f8c99);
+	background-color: #6f8c99;
+}
+
+.bg-gradient-7 {
+	background-color: #ef7973;
 }
 
 .bg-transparent {
@@ -162,6 +183,21 @@ h3 {
 .space {
 	height: 75px;
 	width: auto;
+}
+
+@media screen and (max-width: 814px) {
+
+ .contact-third.flex.flex-row {
+ 	flex-direction: column;
+ }
+ .icon-contact {
+		padding: 20px 0;
+	}
+
+  .row.flex.flex-row {
+  	align-items: flex-start;
+  	justify-content: center;
+  }
 }
 
 @media screen and (max-width: 580px) {
@@ -190,5 +226,11 @@ h3 {
 		order: 2;
 		text-align: justify;
 	}
+	.icon-contact {
+		padding: 20px 0;
+	}
+	.row.flex.flex-row {
+  	  align-items: center;
+  }
 
 }
