@@ -68,6 +68,10 @@ footer {
 	justify-content: center;
 }
 
+.font-roboto {
+	font-family: 'Roboto', sans-serif;
+}
+
 .icon-section {
 	font-size: 150px;
 }
