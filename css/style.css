@@ -20,6 +20,8 @@ h3 {
 	background: url(../images/color-bg-2.jpg) center center fixed;
 	background-size: cover;
 	background-attachment: fixed;
+	height:100%;
+	width: 100%;
 }
 
 .feature-image {
