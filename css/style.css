@@ -15,12 +15,8 @@ h2 {
 h3 {
 	font-size: 30px;
 }
-footer {
-	background: url(../images/color-bg-2.jpg) center center fixed;
-	background-size: cover;
-}
 
-.content-wrap {
+.content-wrap, footer {
 	background: url(../images/color-bg-2.jpg) center center fixed;
 	background-size: cover;
 }
