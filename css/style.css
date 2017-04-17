@@ -16,6 +16,22 @@ h3 {
 	font-size: 30px;
 }
 
+a {
+	text-decoration: none;
+	color: inherit;
+	transition: color .3s
+}
+
+a:hover {
+	color: #303030;
+	transition: color .3s;
+}
+
+.icon-footer:hover {
+	color: #303030;
+	transition: color .3s;
+}
+
 .content-wrap, footer {
 	background: url(../images/color-bg-2.jpg) center center fixed;
 	background-size: cover;
@@ -77,6 +93,7 @@ h3 {
 
 .icon-footer {
 	font-size: 50px;
+	transition: color .3s;
 }
 
 .icon-contact {
