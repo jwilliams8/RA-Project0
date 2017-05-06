@@ -18,11 +18,13 @@ h3 {
 footer {
 	background: url(../images/color-bg-2.jpg) center center fixed;
 	background-size: cover;
+	background-attachment:fixed;
 }
 
 .content-wrap {
 	background: url(../images/color-bg-2.jpg) center center fixed;
 	background-size: cover;
+	background-attachment:fixed;
 }
 
 .feature-image {
