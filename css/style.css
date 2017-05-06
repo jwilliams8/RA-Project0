@@ -36,6 +36,7 @@ a:hover {
 	background: url(../images/color-bg-2.jpg) center center fixed;
 	background-size: cover;
 	background-attachment: fixed;
+	-webkit-background-size: cover;
 	height:100%;
 	width: 100%;
 }
